@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SimpleAPI</string>
+    <string name="this_is_the_demo_of_rest_api">This is the demo of REST API</string>
+</resources>

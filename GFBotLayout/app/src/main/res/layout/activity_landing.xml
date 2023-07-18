@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".LandingActivity">
+
+    <EditText
+        android:textSize="18sp"
+        android:id="@+id/et_api"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:autofillHints="API"
+        android:background="@drawable/edit_text_bg"
+        android:gravity="center"
+        android:hint="Enter your API key"
+        android:padding="10dp"
+        android:textColor="@color/black" />
+    <TextView
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:gravity="end"
+        android:textColor="@color/black"
+        android:padding="5dp"
+        android:text="How to get your API key? Click Here."/>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="60dp"
+        android:layout_marginEnd="10dp"
+        android:layout_height="60dp"
+        android:background="@drawable/circle_bg"
+        android:layout_gravity="end"/>
+
+</LinearLayout>

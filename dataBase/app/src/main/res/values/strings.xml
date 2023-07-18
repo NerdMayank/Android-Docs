@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">dataBase</string>
+    <string name="name">Name</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="for_new_user">For new user</string>
+    <string name="registration">Registration</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="city">City</string>
+    <string name="register">Register</string>
+    <string name="id">ID</string>
+    <string name="update_record">Update Record</string>
+    <string name="delete_record">Delete Record</string>
+    <string name="search_record">Search Record</string>
+    <string name="update">Update</string>
+</resources>
